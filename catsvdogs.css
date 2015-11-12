@@ -1,3 +1,4 @@
+
 #social-buttons button {
 	color: white;
 }
@@ -12,4 +13,10 @@
 .btn-pinterest {
 	background-color: #b62f26;
 	border-color: #b62f26;
+
+.pics
+{ 
+width:750px;
+height:450px;
+
 }
