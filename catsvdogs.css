@@ -10,13 +10,10 @@
 	background-color: #4868ac;
 	border-color: #314776;
 }
+.pics {
+	width: 750px;
+	height: 400px;
+}
 .btn-pinterest {
 	background-color: #b62f26;
 	border-color: #b62f26;
-
-.pics
-{ 
-width:750px;
-height:450px;
-
-}
