@@ -14,7 +14,21 @@
 	background-color: #b62f26;
 	border-color: #b62f26;
 }
-.pics {
-	width: 750px;
-	height: 400px;
+h2.slidetitle {
+	font-color: black;
+
+}
+.title{
+	text-align: center;
+}
+h3.title{
+	font-weight: bold;
+}
+p.italic{
+	font-style: italic;
+}
+html{
+	background-color: white;
+	
+}
 }
