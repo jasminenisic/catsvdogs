@@ -14,12 +14,15 @@
 	background-color: #b62f26;
 	border-color: #b62f26;
 }
-h2.slidetitle {
-	font-color: black;
-
-}
 .title{
 	text-align: center;
+	font-weight: bold;
+}
+h2.slidetitle {
+	font-color: black;
+}
+h2.page-header {
+	font-weight: bold;
 }
 h3.title{
 	font-weight: bold;
@@ -30,4 +33,5 @@ p.italic{
 .doris {
 	padding-left: 50px;
 	padding-right: 50px;
+	font-family: arial;
 }
