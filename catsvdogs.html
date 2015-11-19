@@ -80,22 +80,23 @@
             <div class="item active">
                 <div class="fill" style="background-image:url('images/background1.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2 class="slidertitle">See this weeks contestants...</h2>
+                    <h2>See this weeks contestants...</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('images/background2.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2 class="slidertitle">Subscribe now!</h2>
+                    <h2>Subscribe now!</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('images/background3.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2 class="slidertitle">Have your say, cast your vote</h2>
+                    <h2>Have your say, cast your vote</h2>
                 </div>
             </div>
         </div>
+        <div>
 
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
@@ -105,7 +106,7 @@
         </a>
     </header>
                     <h1 class="title">Cats Vs. Dogs</h1>
-            </div>
+        </div>
 
         <div class="row">
             <div class="col-lg-12">
@@ -169,6 +170,7 @@
                 <h2 class="page-header">Last weeks winner, Doris</h2>
             </div>
             <div class="col-md-6">
+                <blockquote>
                 <p>Our last weeks winner is Doris, she is 10 years old, a tabby cat who lives in Manchester, her hobby's include sleeping, visiting the next door neighbours and eating the scrummiest chicken. </p>
                     <br>
                     <p>Here is what she had to say...</p>
@@ -176,11 +178,9 @@
                 </p>
                     <p class="italic">"Hello, my name is Doris, I love my owners they give me lots of cuddles, I love every kind of food especially chicken, that is my favourite, now that its cold I like to cuddle up on the bed and be warm"</p>
                     <br>
-<<<<<<< HEAD
-                    <p>Unfortunately, Doris is no longer with us, thoughts go out to the family</p>
-=======
+
                     <p>Unfortunately, Doris is no longer with us, thoughts go out to her family.</p>
->>>>>>> origin/master
+                    </blockquote>
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="Images/doris.jpg" alt="Image responsive">
@@ -220,9 +220,29 @@
 <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6"> Marley.R
 </label>
 </P>
-<p><button class='btn btn-success'>Vote</button></p>
+<button type="button" class="btn btn-primary btn-sucess btn-lg" data-toggle="modal" data-target="#myModal">
+  Vote
+</button>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Thank you for your vote!</h4>
+      </div>
+      <div class="modal-body">
+        Be sure to tune in next week to have a look at next week competitors, to find out more check out our Facebook, Twitter and Pintrest accounts
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
-        <hr>
+</div>
+    <hr>
+    <div class="footer">
+    <footer>
 <div class='row container'>
     <div class="col-md-6">
 <div id='social-buttons'>
@@ -232,11 +252,7 @@
 
 </div>
 </div>
-<<<<<<< HEAD
-<div class=' container'
-=======
 <div class='container'>
->>>>>>> origin/master
 <div class="col-md-6">
 <form role='form'>
     <label for="email">Find out more</label>
@@ -245,13 +261,13 @@
 </form>
 </div>
 </div>
-        <footer>
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Catsvsdogs 2015</p>
                 </div>
             </div>
         </footer>
+    </div>
 
     </div>
     <script src="js/jquery.js"></script>
