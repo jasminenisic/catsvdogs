@@ -19,6 +19,10 @@
 	font-weight: bold;
 	font-family: 
 }
+.arial{
+	font-family: "arial", sans-serif;
+}
+}
 }
 h2.page-header {
 	font-weight: bold;
@@ -33,4 +37,9 @@ p.italic{
 	padding-left: 50px;
 	padding-right: 50px;
 	font-family: arial;
+}
+h1.catsvsdogs{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 70px;
+    font-style: bold;
 }
