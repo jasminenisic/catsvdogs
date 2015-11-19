@@ -27,8 +27,7 @@ h3.title{
 p.italic{
 	font-style: italic;
 }
-html{
-	background-color: white;
-	
-}
+.doris {
+	padding-left: 50px;
+	padding-right: 50px;
 }
